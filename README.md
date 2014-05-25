@@ -25,12 +25,12 @@ This R script assumes that the original data set is already downloaded and unzip
 * 2. run the function "run_analysis", i.e., in the R command line:
 	run_analysis()
 * 3. the function will assume the original data set's local directory to be "./UCI HAR Dataset/". You could override by specifying in the parameter:
-	run_analysis("/c/user/xxx/UCI HAR Dataset/")
+	e.g. run_analysis("/c/user/xxx/UCI HAR Dataset/")
 	
 ### Output:
 The R script will create 2 data set files:
-* 1. The transformed data set that covers Tasks 1-4
-* 2. Another data set that covers Task 5
+* 1. Filename "tidyOutput.txt", saved in the current directory. This file covers Tasks 1-4 mentioned above.
+* 2. Filename "averageActivitySubject.txt", saved in the current directory. This file covers Task 5 mentioned above.
 
 For details of the variables covered in these 2 output files, please refer to "CodeBook.md"
 
